@@ -117,7 +117,6 @@ header {
 }
 
 main {
-    flex: 1 0 auto;
     .popular-search {
         background-color: rgba(107, 121, 152, 0.05);
         height: 96px;
@@ -417,7 +416,6 @@ footer {
     background-color: $footerBg;
     color: $white;
     height: 203px;
-    flex-shrink: 0;
 
     @media screen and (max-width: $screenmd) {
         height: 100%;

@@ -6,11 +6,6 @@
     box-sizing: border-box;
 }
 
-
-html, body {
-    height: 100%;
-}
-
 html {
     font-size: $htmlSize;
     overflow-x: hidden;
@@ -21,9 +16,6 @@ body {
     font-size: $bodySize;
     font-family: $fontFamily;
     color:$black;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
 
     ::selection {
         color: $white;
